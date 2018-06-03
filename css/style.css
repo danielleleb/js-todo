@@ -1,0 +1,79 @@
+body {
+  background-color: whitesmoke; }
+
+.hidden {
+  visibility: hidden; }
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh; }
+
+.buttons {
+  display: flex;
+  flex-direction: column; }
+  .buttons button {
+    margin: 7px;
+    height: 30px;
+    border-radius: 5px; }
+  .buttons button:hover {
+    background-color: rgba(0, 30, 255, 0.282); }
+
+.select {
+  font-family: "Muli", sans-serif;
+  min-width: 150px;
+  border-radius: 5px;
+  min-height: 50%;
+  text-align: center;
+  font-size: 16px; }
+  .select option {
+    border-bottom: 1px solid whitesmoke; }
+  .select option:hover {
+    background: rgba(0, 30, 255, 0.57); }
+
+.add-task-container {
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  z-index: 2;
+  background-color: rgba(112, 123, 112, 0.693);
+  left: 0;
+  top: 0;
+  justify-content: center;
+  align-items: center;
+  display: flex; }
+
+.add-task-content {
+  min-width: 50vw;
+  min-height: 50vh;
+  background-color: whitesmoke;
+  border-radius: 5px;
+  box-shadow: 7px 6px 9px 0 grey; }
+  .add-task-content i {
+    padding-left: 10px;
+    font-size: 2em; }
+  .add-task-content .add-task-form {
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif; }
+    .add-task-content .add-task-form p {
+      font-family: "Muli", sans-serif; }
+    .add-task-content .add-task-form .task-input {
+      font-family: "Muli", sans-serif;
+      border-radius: 5px;
+      font-size: 16px;
+      height: 30px;
+      text-align: center; }
+    .add-task-content .add-task-form .task-submit {
+      font-family: "Muli", sans-serif;
+      height: 30px;
+      width: 80px;
+      font-size: 14px;
+      border-radius: 5px;
+      margin-top: 15px; }
+    .add-task-content .add-task-form .task-submit:hover {
+      background-color: rgba(0, 30, 255, 0.57); }

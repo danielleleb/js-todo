@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Brujula</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+    <link rel="shortcut icon" href="./b-image.png" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <select class="select" multiple>
+
+        </select>
+
+        <div class="buttons">
+            <button class="add-btn"><i class="fas fa-plus"></i></button>
+            <button class="delete-btn"><i class="fas fa-trash-alt"></i></button>
+            <button class="undo-btn"><i class="fas fa-undo-alt"></i></button>
+        </div>
+
+        <div class="hidden add-task-container">
+            <div class="add-task-content">
+                <p class="exit"><i class="far fa-times-circle"></i></p>
+                <div class="add-task-form">
+                    <p>Add a new task:</p>
+                    <input type="text" class="task-input">
+                    <input type="submit" class="task-submit">
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mockjax/1.6.2/jquery.mockjax.min.js"></script>
+    <script src="./index.js"></script>
+</body>
+</html>
